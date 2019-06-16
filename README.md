@@ -1,4 +1,4 @@
-IMPORTANT: You are encouraged to read this entire file and make necessary modifications to your code before program execution.
+**IMPORTANT:** You are encouraged to read this entire file and make necessary modifications to your code before program execution.
 
 MATLAB code for [description of paper]
 
