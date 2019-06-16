@@ -25,3 +25,15 @@ Morphological feature extraction of segmented or annotated organs in radiologica
 (5) save volume (volume) and curvature (meanCurv) results of each 3D rendered organ to a .xlsx file.
 
 **To execute the program, modify and run "VolumeCurvatureReconstruction.m".**
+
+**IMPORTANT TO NOTE:** Please modify the following variables below:
+
+1) resultsFolder = 'path-to-folder-that-stores-results';
+
+2) inputFolder = 'path-to-folder-that-contains-input-files-of-organ-segmentations-or-annotations';
+
+3) totalData = 'struct-listing-all-files-that-contain-3D-arrays-of-binary-organ-annotations';
+
+4) volSize = ['width','height','depth'] where 'width' is the number of columns in the binary organ-annotation array; 'height' is the number of rows in the binary organ-annotation array; and 'depth' is the number of slices (2D) in the binary organ-annotation array.
+
+5) interpVoxSize = ['x','y',z'] where 'x' is pixel interval in axial direction; 'y' is pixel interval in sagittal direction; 'z' is the spacing between each slice (2D) in the binary organ-annotation array..
