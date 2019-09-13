@@ -1,6 +1,6 @@
 **IMPORTANT:** You are encouraged to read this entire file and make necessary modifications to your code before program execution.
 
-MATLAB code for [description of paper]
+MATLAB code for "A Framework for Automatic Morphological Feature Extraction and Analysis of Abdominal Organs in MRI Volumes".
 
 by Hykoush Asaturyan, E. Louise Thomas, Jimmy. D. Bell and Barbara Villarini.
 
