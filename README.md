@@ -4,7 +4,7 @@ MATLAB code for "A Framework for Automatic Morphological Feature Extraction and 
 
 by Hykoush Asaturyan, E. Louise Thomas, Jimmy. D. Bell and Barbara Villarini.
 
-Please see [link to pdf file] for online access to PDF file.
+Please see [https://tinyurl.com/vb3hb2b] for online access to PDF file.
 
 This program was built using MATLAB R2017b and MATLAB R2018a, and employs the Image Processing Toolbox and Computer Vision Toolbox.
 
