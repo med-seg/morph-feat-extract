@@ -70,9 +70,18 @@ points = double(points);
 viewPoint = double(viewPoint);
 
 %create kdtree
+%k-d tree is a space-partitioning data structure for organizing points in a k-dimensional space
+%The general idea is that the kd-tree is a binary tree, each of whose nodes represents an axis-aligned hyperrectangle. 
+%Each node specifies an axis and splits the set of points based on whether their 
+%coordinate along that axis is greater than or less than a particular value.
+
+%Store the results of a nearest neighbor search that uses the Kd-tree algorithm. 
+%Results include the training data, distance metric and its parameters, 
+%and maximum number of data points in each leaf node (that is, the bucket size). 
 kdtreeobj = KDTreeSearcher(points,'distance','euclidean');
 
 %get nearest neighbours
+%returns the indices of the closest points in kdtreeobj.X to K
 n = knnsearch(kdtreeobj,points,'k',(numNeighbours+1));
 
 %remove self
