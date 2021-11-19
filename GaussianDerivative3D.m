@@ -1,5 +1,5 @@
 function DI = GaussianDerivative3D(I,sigma,order,voxsz)
-%  Compute the Gaussian derivative of an image using fft
+%  Compute the Gaussian derivative of an image using fast Fourier transform (fft)
 
 if  length(sigma)==1, sigma=[sigma,sigma,sigma]; end
 if  length(order)==1, order=[order,order,order]; end
