@@ -88,10 +88,14 @@ n = knnsearch(kdtreeobj,points,'k',(numNeighbours+1));
 n = n(:,2:end);
 
 %find difference in position from neighbouring points
+%Repeat copies of array
+%A = repmat(N,x,y) returns A = x-by-y array
 p = repmat(points(:,1:3),numNeighbours,1) - points(n(:),1:3);
 p = reshape(p, size(points,1),numNeighbours,3);
 
 %calculate values for covariance matrix
+%square matrix giving the covariance, joint variability of two random variables, 
+%between each pair of elements of a given random vector.
 C = zeros(size(points,1),6);
 C(:,1) = sum(p(:,:,1).*p(:,:,1),2);
 C(:,2) = sum(p(:,:,1).*p(:,:,2),2);
