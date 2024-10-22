@@ -2,7 +2,7 @@
 
 MATLAB code for "A Framework for Automatic Morphological Feature Extraction and Analysis of Abdominal Organs in MRI Volumes".
 
-by Hykoush Asaturyan, E. Louise Thomas, Jimmy. D. Bell and Barbara Villarini.
+by Hykoush A. Asaturyan, E. Louise Thomas, Jimmy D. Bell and Barbara Villarini.
 
 Please see [https://tinyurl.com/vb3hb2b] for online access to PDF file.
 
